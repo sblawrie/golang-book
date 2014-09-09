@@ -1,0 +1,7 @@
+Our program began with package main. What would the files in the fmt package begin with?
+
+//// package fmt
+
+We used the Println function defined in the fmt package. If we wanted to use the Exit function from the os package what would we need to do?
+
+//// os.Exit()
