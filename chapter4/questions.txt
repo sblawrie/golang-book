@@ -1,0 +1,26 @@
+What are two ways to create a new variable?
+
+//// var x string = 'string'
+//// var x := 'string
+
+What is the value of x after running:
+x := 5; x += 1?
+
+//// 6
+
+What is scope and how do you determine the scope of a variable in Go?
+
+//// The variable exists within the nearest curly braces { } (a block) including any nested curly braces (blocks), but not outside of them.
+//// Similar to JavaScript
+
+What is the difference between var and const?
+
+//// You can never change a const
+
+Using the example program as a starting point, write a program that converts from Fahrenheit into Celsius. (C = (F - 32) * 5/9)
+
+//// See temperature.go
+
+Write another program that converts from feet into meters. (1 ft = 0.3048 m)
+
+//// See meters.go
