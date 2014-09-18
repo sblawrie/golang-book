@@ -1,0 +1,18 @@
+How do you specify the direction of a channel type?
+
+// `c <- "ping"` sends and `msg := <- c` receives
+
+Write your own Sleep function using time.After.
+
+//
+func Sleep(x int) {
+    c := <- time.After(x)
+}
+//
+
+What is a buffered channel? How would you create one with a capacity of 20?
+
+// By default, channels are unbuffered, meaning that they won't send or receive values until
+// both a sender and a receiver are set up.
+// Buffered channels let you send values to the channel without a receiver being set up yet.
+// You can make one like this: `c := make(chan int, 20)`

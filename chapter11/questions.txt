@@ -1,0 +1,20 @@
+Why do we use packages?
+
+// To let us re-use and port functionality easier, and to prevent overlap of function names
+
+What is the difference between an identifier that starts with a capital letter and one which doesn’t? (Average vs average)
+
+// An uppercase indicates that the indentifier is publicly available
+
+What is a package alias? How do you make one?
+
+// It allows you to reference the package with a shorter or easier-to-remember name
+// You make one by specifying the alias right before the package path
+
+We copied the average function from chapter 7 to our new package. Create Min and Max functions which find the minimum and maximum values in a slice of float64s.
+
+// See math.go
+
+How would you document the functions you created in #3?
+
+// By adding comments above each function definition and running `godoc /path/to/file/math Min` and `godoc /path/to/file/math Max`
