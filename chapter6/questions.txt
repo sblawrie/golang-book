@@ -1,0 +1,18 @@
+How do you access the 4th element of an array or slice?
+
+//// a[3]
+
+What is the length of a slice created using: make([]int, 3, 9)?
+
+//// 3
+
+Given the array:
+
+x := [6]string{"a","b","c","d","e","f"}
+what would x[2:5] give you?
+
+//// an array with {'c', 'd', 'e'}
+
+Write a program that finds the smallest number in this list:
+
+//// See small.go
