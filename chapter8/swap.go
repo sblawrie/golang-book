@@ -1,5 +1,5 @@
 func swap(x *int, y *int) {
-	tmp := x*
-	x* = y*
-	y* = tmp
+	tmp := *x
+	*x = *y
+	*y = tmp
 }
